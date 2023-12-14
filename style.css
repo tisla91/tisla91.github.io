@@ -1,0 +1,41 @@
+/* Tag selector- change color of body(page background) to ash */
+body{
+  background-color: #6B6868;
+  color: white;
+}
+
+/* Tag selector- Add an oval frame to image */
+img{
+    border-radius: 50%;
+  }
+
+/* Tag selector- change color of hr to blue */
+hr{
+    color: #5E0F0F;
+  }
+
+
+/* ID Selector- Centralize only img tag */
+#center_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+/* Class Selector- Align any tags */
+.center_text{
+    text-align: center;
+  }
+
+
+/* Draggable Selector- Align only h2 tag with draggable attribute set to true */
+h2[draggable="true"]{
+    text-align: center;
+  }
+
+
+/* Universal selector- Applies to all tags */
+*{
+    color: white;
+  }
