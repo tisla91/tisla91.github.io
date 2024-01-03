@@ -41,5 +41,7 @@ h2[draggable="true"]{
   }
 
 a:link {
-   color: white;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
   }
