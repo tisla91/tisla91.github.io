@@ -40,6 +40,6 @@ h2[draggable="true"]{
     color: white;
   }
 
-a{
+a:link {
    color: white;
   }
